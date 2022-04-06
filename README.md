@@ -7,8 +7,7 @@ They'd like a data engineer to create an Apache Cassandra database which can cre
 
 ## Dataset
 There is only one dataset named `event_data` which is in a directory of CSV files partitioned by date. Here are two examples of filepaths to two files in the dataset:
-> `event_data/2018-11-08-events.csv
-event_data/2018-11-09-events.csv`
+> `event_data/2018-11-08-events.csv`
 
 ## Queries/Questions
 For NoSQL databases, we design the schema based on the queries we know we want to perform. In other words, we are modeling our schema after our questions. For this project, these are the 3 questions/queries we are interested in finding the answers to:
